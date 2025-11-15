@@ -1,0 +1,79 @@
+{
+  "baseline": {
+    "run": "baseline",
+    "threads": 1,
+    "opLat": null,
+    "issueLat": null,
+    "simSeconds": 7e-05,
+    "totalCommittedInsts": 18614.0,
+    "totalCycles": 139886.0,
+    "aggIPC": 0.13306549618975452,
+    "speedup_vs_baseline": 1.0
+  },
+  "minor_bp_local": {
+    "run": "minor_bp_local",
+    "threads": 1,
+    "opLat": null,
+    "issueLat": null,
+    "simSeconds": 0.020201,
+    "totalCommittedInsts": 32019956.0,
+    "totalCycles": 40401392.0,
+    "aggIPC": 0.7925458607960835,
+    "speedup_vs_baseline": 0.003465174991337062
+  },
+  "minor_bp_static": {
+    "run": "minor_bp_static",
+    "threads": 1,
+    "opLat": null,
+    "issueLat": null,
+    "simSeconds": 0.020201,
+    "totalCommittedInsts": 32019956.0,
+    "totalCycles": 40401392.0,
+    "aggIPC": 0.7925458607960835,
+    "speedup_vs_baseline": 0.003465174991337062
+  },
+  "o3_smt_w4": {
+    "run": "o3_smt_w4",
+    "threads": 1,
+    "opLat": null,
+    "issueLat": null,
+    "simSeconds": 0.007925,
+    "totalCommittedInsts": 32019918.0,
+    "totalCycles": 15849180.0,
+    "aggIPC": 2.0202886206100255,
+    "speedup_vs_baseline": 0.008832807570977918
+  },
+  "o3_w1": {
+    "run": "o3_w1",
+    "threads": 1,
+    "opLat": null,
+    "issueLat": null,
+    "simSeconds": 0.015056,
+    "totalCommittedInsts": 32019918.0,
+    "totalCycles": 30111141.0,
+    "aggIPC": 1.0633910551579564,
+    "speedup_vs_baseline": 0.0046493092454835275
+  },
+  "o3_w2": {
+    "run": "o3_w2",
+    "threads": 1,
+    "opLat": null,
+    "issueLat": null,
+    "simSeconds": 0.007925,
+    "totalCommittedInsts": 32019918.0,
+    "totalCycles": 15849180.0,
+    "aggIPC": 2.0202886206100255,
+    "speedup_vs_baseline": 0.008832807570977918
+  },
+  "o3_w4": {
+    "run": "o3_w4",
+    "threads": 1,
+    "opLat": null,
+    "issueLat": null,
+    "simSeconds": 0.004046,
+    "totalCommittedInsts": 32019918.0,
+    "totalCycles": 8091256.0,
+    "aggIPC": 3.957348278190679,
+    "speedup_vs_baseline": 0.017301038062283735
+  }
+}
